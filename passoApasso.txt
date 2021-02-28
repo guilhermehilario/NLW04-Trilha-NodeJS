@@ -1,0 +1,35 @@
+criar a pasta do projetos
+  Primeiros Comandos: 
+      npm init -y | npm init
+
+      dependencias
+
+        express - micro framework
+
+      criar pasta src
+        criar o arquivo server.ts
+          importar o express
+          criar a const app para inicar o express
+          instalar as tipagens do express
+          criar o servidor dando um app.listen("port", arrow function);
+
+          instalar TypeScript
+          npm tsc --init
+            mudar
+            strict: false
+
+          npm install ts-node-dev
+            criar um scripts 
+              "dev": "ts-node-dev [src/"caminho"]"
+                configs: [no meio do código a cima] "--transpile-only --ingore-watch node_modules"
+          criar o module 
+          Passar o nome da tabela com o @Entity
+
+          criar as rotas
+            importar Router do express
+            inicializar a constante router passando Router()
+            criar as const dos controllers
+            chamar router.metodo("recurso", [(request, response)])
+          
+
+

@@ -1,0 +1,37 @@
+// Inicia o typescript
+yarn tsc --init
+
+// Serve para transpilar o TS para o Node
+yarn add ts-node-dev -D
+
+// Mata o processo node
+pkill node
+
+// Métodos HTTP
+GET => Busca
+POST => Salvar
+PUT => Alterar
+Delete => Deletar
+PATCH => Alteração específica
+
+// Formas de Acessa um banco de dados
+1. Driver cdo Banco
+2. Query Builder (Knex)
+3. ORM (Mapeamento de objetos) - TypeORM | Sequelize
+
+Sqlite é um banco em memória;
+
+
+Testes automatizados
+
+1 - Testes unitários 
+
+2 - Testes de integração 
+
+-> request -> routes -> controller -> repository
+<- repository <- controller <- response
+
+3 - Ponta a Ponta (E2E)
+
+
+Route Parms => Parametros que compoe a rota
